@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Api.Certification.AppDomain.Commands.request;
+using MediatR;
 
 namespace Api.Certification.AppDomain.Handler
 {
-    public class FindCertificateHandler
+    public class FindCertificateHandler : IRequestHandler<FindCertificateRequest, FindCertificateResponse>
     {
+        Task<FindCertificateResponse> IRequestHandler<FindCertificateRequest, FindCertificateResponse>.Handle(FindCertificateRequest request, CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

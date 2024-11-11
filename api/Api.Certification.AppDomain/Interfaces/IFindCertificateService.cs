@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Api.Certification.AppDomain.Interfaces
+﻿namespace Api.Certification.AppDomain.Interfaces
 {
-    internal class IFindCertificateService
+    public interface IFindCertificateService
     {
     }
 }

@@ -17,17 +17,17 @@ namespace Api.Certification.Controller
             var response = await _mediator.Send(request);
 
             return Ok("Data received and processed successfully");
-        } 
-        
-        //[HttpPost("v1/generate")]
-        //[ProducesResponseType(typeof(File), StatusCodes.Status200OK)]
-        //public async Task<IActionResult> GenerateCertificate(GenerateCertificateRequest request)
-        //{
+        }
 
-        //    var response = await _mediator.Send(request);
+        [HttpGet("v1/find")]
+        [ProducesResponseType(typeof(File), StatusCodes.Status200OK)]
+        public async Task<IActionResult> FindCertificate(GenerateCertificateRequest request)
+        {
 
-        //    return File(response.Certificate, "application/pdf", "certificado.pdf");
-        //}
+            var response = await _mediator.Send(request);
+
+            return File(response.Certificate, "application/pdf", "certificado.pdf");
+        }
 
     }
 }
