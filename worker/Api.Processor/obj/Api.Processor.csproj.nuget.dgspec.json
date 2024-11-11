@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\Api.Processor.csproj": {}
+    "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\Api.Processor\\Api.Processor.csproj": {}
   },
   "projects": {
-    "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\Api.Processor.csproj": {
+    "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\Api.Processor\\Api.Processor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\Api.Processor.csproj",
+        "projectUniqueName": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\Api.Processor\\Api.Processor.csproj",
         "projectName": "Api.Processor",
-        "projectPath": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\Api.Processor.csproj",
+        "projectPath": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\Api.Processor\\Api.Processor.csproj",
         "packagesPath": "C:\\Users\\Perobellinha\\.nuget\\packages\\",
-        "outputPath": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\obj\\",
+        "outputPath": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\Api.Processor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

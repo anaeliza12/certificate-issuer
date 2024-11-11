@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Api.Processor
-build_property.ProjectDir = C:\Ana\PROJETOS INDIVIDUAIS\C#\certificate-issuer\api\Api.Processor\
+build_property.ProjectDir = C:\Ana\PROJETOS INDIVIDUAIS\C#\certificate-issuer\worker\Api.Processor\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

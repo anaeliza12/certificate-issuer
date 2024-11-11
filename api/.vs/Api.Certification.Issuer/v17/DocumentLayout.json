@@ -1,62 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\",
+  "WorkspaceRootPath": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE623690-7B36-4B87-A7B1-8D63C91D6A33}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|c:\\ana\\projetos individuais\\c#\\api.certification.issuer\\api.certification.appdomain\\api.certification.appdomain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{AE623690-7B36-4B87-A7B1-8D63C91D6A33}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|solutionrelative:api.certification.appdomain\\api.certification.appdomain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{662BF67A-4600-4BD6-9732-A79C280B8DDC}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.certification.issuer\\api.certification.appdomain\\commands\\request\\generatecertificaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662BF67A-4600-4BD6-9732-A79C280B8DDC}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|solutionrelative:api.certification.appdomain\\commands\\request\\generatecertificaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE623690-7B36-4B87-A7B1-8D63C91D6A33}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|c:\\ana\\projetos individuais\\c#\\api.certification.issuer\\api.certification.appdomain\\model\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE623690-7B36-4B87-A7B1-8D63C91D6A33}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|solutionrelative:api.certification.appdomain\\model\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B206353-2AD8-447C-8FED-6BCD72D6E7A8}|Api.Certification.Issuer\\Api.Certification.Controller.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.certification.issuer\\api.certification.issuer\\api.certification.controller.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1B206353-2AD8-447C-8FED-6BCD72D6E7A8}|Api.Certification.Issuer\\Api.Certification.Controller.csproj|solutionrelative:api.certification.issuer\\api.certification.controller.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE623690-7B36-4B87-A7B1-8D63C91D6A33}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|c:\\ana\\projetos individuais\\c#\\api.certification.issuer\\api.certification.appdomain\\model\\certificatefilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE623690-7B36-4B87-A7B1-8D63C91D6A33}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|solutionrelative:api.certification.appdomain\\model\\certificatefilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{662BF67A-4600-4BD6-9732-A79C280B8DDC}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.certification.issuer\\api.certification.appdomain\\api.certification.appdomain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{662BF67A-4600-4BD6-9732-A79C280B8DDC}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|solutionrelative:api.certification.appdomain\\api.certification.appdomain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE623690-7B36-4B87-A7B1-8D63C91D6A33}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|c:\\ana\\projetos individuais\\c#\\api.certification.issuer\\api.certification.appdomain\\interfaces\\iredisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE623690-7B36-4B87-A7B1-8D63C91D6A33}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|solutionrelative:api.certification.appdomain\\interfaces\\iredisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{662BF67A-4600-4BD6-9732-A79C280B8DDC}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.certification.issuer\\api.certification.appdomain\\utils\\appsettings\\redisconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662BF67A-4600-4BD6-9732-A79C280B8DDC}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|solutionrelative:api.certification.appdomain\\utils\\appsettings\\redisconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE623690-7B36-4B87-A7B1-8D63C91D6A33}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|c:\\ana\\projetos individuais\\c#\\api.certification.issuer\\api.certification.appdomain\\interfaces\\igeneratecertificateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE623690-7B36-4B87-A7B1-8D63C91D6A33}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|solutionrelative:api.certification.appdomain\\interfaces\\igeneratecertificateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{662BF67A-4600-4BD6-9732-A79C280B8DDC}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.certification.issuer\\api.certification.appdomain\\utils\\appsettings\\templateconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662BF67A-4600-4BD6-9732-A79C280B8DDC}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|solutionrelative:api.certification.appdomain\\utils\\appsettings\\templateconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE623690-7B36-4B87-A7B1-8D63C91D6A33}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|c:\\ana\\projetos individuais\\c#\\api.certification.issuer\\api.certification.appdomain\\handler\\generatecertificatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE623690-7B36-4B87-A7B1-8D63C91D6A33}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|solutionrelative:api.certification.appdomain\\handler\\generatecertificatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B206353-2AD8-447C-8FED-6BCD72D6E7A8}|Api.Certification.Issuer\\Api.Certification.Controller.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.certification.issuer\\api.certification.issuer\\certificatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B206353-2AD8-447C-8FED-6BCD72D6E7A8}|Api.Certification.Issuer\\Api.Certification.Controller.csproj|solutionrelative:api.certification.issuer\\certificatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE623690-7B36-4B87-A7B1-8D63C91D6A33}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|c:\\ana\\projetos individuais\\c#\\api.certification.issuer\\api.certification.appdomain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE623690-7B36-4B87-A7B1-8D63C91D6A33}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|solutionrelative:api.certification.appdomain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B206353-2AD8-447C-8FED-6BCD72D6E7A8}|Api.Certification.Issuer\\Api.Certification.Issuer.Controller.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.certification.issuer\\api.certification.issuer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B206353-2AD8-447C-8FED-6BCD72D6E7A8}|Api.Certification.Issuer\\Api.Certification.Issuer.Controller.csproj|solutionrelative:api.certification.issuer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE623690-7B36-4B87-A7B1-8D63C91D6A33}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|c:\\ana\\projetos individuais\\c#\\api.certification.issuer\\api.certification.appdomain\\commands\\response\\generatecertificateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE623690-7B36-4B87-A7B1-8D63C91D6A33}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|solutionrelative:api.certification.appdomain\\commands\\response\\generatecertificateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA6137FC-83B5-4FF6-A6F7-4642F9DF019F}|Api.Certification.Infra\\Api.Certification.Infra.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.certification.issuer\\api.certification.infra\\apisettings\\ioc\\ioc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA6137FC-83B5-4FF6-A6F7-4642F9DF019F}|Api.Certification.Infra\\Api.Certification.Infra.csproj|solutionrelative:api.certification.infra\\apisettings\\ioc\\ioc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE623690-7B36-4B87-A7B1-8D63C91D6A33}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|c:\\ana\\projetos individuais\\c#\\api.certification.issuer\\api.certification.appdomain\\commands\\request\\generatecertificaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE623690-7B36-4B87-A7B1-8D63C91D6A33}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|solutionrelative:api.certification.appdomain\\commands\\request\\generatecertificaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA6137FC-83B5-4FF6-A6F7-4642F9DF019F}|Api.Certification.Infra\\Api.Certification.Infra.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.certification.issuer\\api.certification.infra\\apisettings\\repositories\\context\\mysqlcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA6137FC-83B5-4FF6-A6F7-4642F9DF019F}|Api.Certification.Infra\\Api.Certification.Infra.csproj|solutionrelative:api.certification.infra\\apisettings\\repositories\\context\\mysqlcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC9C147-DA2A-4619-B1C9-06B4862EAD7E}|Api.Certification.Issuer\\Api.Certification.Infra.csproj|c:\\ana\\projetos individuais\\c#\\api.certification.issuer\\api.certification.issuer\\api.certification.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2FC9C147-DA2A-4619-B1C9-06B4862EAD7E}|Api.Certification.Issuer\\Api.Certification.Infra.csproj|solutionrelative:api.certification.issuer\\api.certification.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{BA6137FC-83B5-4FF6-A6F7-4642F9DF019F}|Api.Certification.Infra\\Api.Certification.Infra.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.certification.issuer\\api.certification.infra\\services\\generatecertificateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA6137FC-83B5-4FF6-A6F7-4642F9DF019F}|Api.Certification.Infra\\Api.Certification.Infra.csproj|solutionrelative:api.certification.infra\\services\\generatecertificateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC9C147-DA2A-4619-B1C9-06B4862EAD7E}|Api.Certification.Issuer\\Api.Certification.Infra.csproj|c:\\ana\\projetos individuais\\c#\\api.certification.issuer\\api.certification.issuer\\services\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC9C147-DA2A-4619-B1C9-06B4862EAD7E}|Api.Certification.Issuer\\Api.Certification.Infra.csproj|solutionrelative:api.certification.issuer\\services\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA6137FC-83B5-4FF6-A6F7-4642F9DF019F}|Api.Certification.Infra\\Api.Certification.Infra.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.certification.issuer\\api.certification.infra\\services\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA6137FC-83B5-4FF6-A6F7-4642F9DF019F}|Api.Certification.Infra\\Api.Certification.Infra.csproj|solutionrelative:api.certification.infra\\services\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC9C147-DA2A-4619-B1C9-06B4862EAD7E}|Api.Certification.Issuer\\Api.Certification.Infra.csproj|c:\\ana\\projetos individuais\\c#\\api.certification.issuer\\api.certification.issuer\\services\\generatecertificateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC9C147-DA2A-4619-B1C9-06B4862EAD7E}|Api.Certification.Issuer\\Api.Certification.Infra.csproj|solutionrelative:api.certification.issuer\\services\\generatecertificateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA6137FC-83B5-4FF6-A6F7-4642F9DF019F}|Api.Certification.Infra\\Api.Certification.Infra.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.certification.issuer\\api.certification.infra\\api.certification.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BA6137FC-83B5-4FF6-A6F7-4642F9DF019F}|Api.Certification.Infra\\Api.Certification.Infra.csproj|solutionrelative:api.certification.infra\\api.certification.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC9C147-DA2A-4619-B1C9-06B4862EAD7E}|Api.Certification.Issuer\\Api.Certification.Infra.csproj|c:\\ana\\projetos individuais\\c#\\api.certification.issuer\\api.certification.issuer\\apisettings\\repositories\\context\\mysqlcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC9C147-DA2A-4619-B1C9-06B4862EAD7E}|Api.Certification.Issuer\\Api.Certification.Infra.csproj|solutionrelative:api.certification.issuer\\apisettings\\repositories\\context\\mysqlcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{662BF67A-4600-4BD6-9732-A79C280B8DDC}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.certification.issuer\\api.certification.appdomain\\utils\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662BF67A-4600-4BD6-9732-A79C280B8DDC}|Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj|solutionrelative:api.certification.appdomain\\utils\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC9C147-DA2A-4619-B1C9-06B4862EAD7E}|Api.Certification.Issuer\\Api.Certification.Infra.csproj|c:\\ana\\projetos individuais\\c#\\api.certification.issuer\\api.certification.issuer\\apisettings\\ioc\\ioc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC9C147-DA2A-4619-B1C9-06B4862EAD7E}|Api.Certification.Issuer\\Api.Certification.Infra.csproj|solutionrelative:api.certification.issuer\\apisettings\\ioc\\ioc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B206353-2AD8-447C-8FED-6BCD72D6E7A8}|Api.Certification.Issuer\\Api.Certification.Issuer.Controller.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.certification.issuer\\api.certification.issuer\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1B206353-2AD8-447C-8FED-6BCD72D6E7A8}|Api.Certification.Issuer\\Api.Certification.Issuer.Controller.csproj|solutionrelative:api.certification.issuer\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,188 +66,188 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentModel.cs",
-              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Model\\StudentModel.cs",
-              "RelativeDocumentMoniker": "Api.Certification.AppDomain\\Model\\StudentModel.cs",
-              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Model\\StudentModel.cs",
-              "RelativeToolTip": "Api.Certification.AppDomain\\Model\\StudentModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T02:31:53.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CertificateFileModel.cs",
-              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Model\\CertificateFileModel.cs",
-              "RelativeDocumentMoniker": "Api.Certification.AppDomain\\Model\\CertificateFileModel.cs",
-              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Model\\CertificateFileModel.cs",
-              "RelativeToolTip": "Api.Certification.AppDomain\\Model\\CertificateFileModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T02:31:39.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Api.Certification.AppDomain",
-              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj",
-              "RelativeDocumentMoniker": "Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj",
-              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj",
-              "RelativeToolTip": "Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAIwA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-11T02:30:15.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IRedisService.cs",
-              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Interfaces\\IRedisService.cs",
-              "RelativeDocumentMoniker": "Api.Certification.AppDomain\\Interfaces\\IRedisService.cs",
-              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Interfaces\\IRedisService.cs",
-              "RelativeToolTip": "Api.Certification.AppDomain\\Interfaces\\IRedisService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Title": "GenerateCertificateRequest.cs",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Commands\\Request\\GenerateCertificateRequest.cs",
+              "RelativeDocumentMoniker": "Api.Certification.AppDomain\\Commands\\Request\\GenerateCertificateRequest.cs",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Commands\\Request\\GenerateCertificateRequest.cs",
+              "RelativeToolTip": "Api.Certification.AppDomain\\Commands\\Request\\GenerateCertificateRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T02:31:16.784Z",
+              "WhenOpened": "2024-11-11T03:06:54.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IGenerateCertificateService.cs",
-              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Interfaces\\IGenerateCertificateService.cs",
-              "RelativeDocumentMoniker": "Api.Certification.AppDomain\\Interfaces\\IGenerateCertificateService.cs",
-              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Interfaces\\IGenerateCertificateService.cs",
-              "RelativeToolTip": "Api.Certification.AppDomain\\Interfaces\\IGenerateCertificateService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Title": "TemplateConfig.cs",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Utils\\AppSettings\\TemplateConfig.cs",
+              "RelativeDocumentMoniker": "Api.Certification.AppDomain\\Utils\\AppSettings\\TemplateConfig.cs",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Utils\\AppSettings\\TemplateConfig.cs",
+              "RelativeToolTip": "Api.Certification.AppDomain\\Utils\\AppSettings\\TemplateConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T02:31:03.302Z",
+              "WhenOpened": "2024-11-11T03:06:04.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "GenerateCertificateHandler.cs",
-              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Handler\\GenerateCertificateHandler.cs",
-              "RelativeDocumentMoniker": "Api.Certification.AppDomain\\Handler\\GenerateCertificateHandler.cs",
-              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Handler\\GenerateCertificateHandler.cs",
-              "RelativeToolTip": "Api.Certification.AppDomain\\Handler\\GenerateCertificateHandler.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAmwBMAAAAJAAAA",
+              "Title": "CertificateController.cs",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.Issuer\\CertificateController.cs",
+              "RelativeDocumentMoniker": "Api.Certification.Issuer\\CertificateController.cs",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.Issuer\\CertificateController.cs",
+              "RelativeToolTip": "Api.Certification.Issuer\\CertificateController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T02:30:33.033Z",
+              "WhenOpened": "2024-11-11T03:06:02.914Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "GenerateCertificateResponse.cs",
-              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Commands\\Response\\GenerateCertificateResponse.cs",
-              "RelativeDocumentMoniker": "Api.Certification.AppDomain\\Commands\\Response\\GenerateCertificateResponse.cs",
-              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Commands\\Response\\GenerateCertificateResponse.cs",
-              "RelativeToolTip": "Api.Certification.AppDomain\\Commands\\Response\\GenerateCertificateResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Title": "IoC.cs",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.Infra\\ApiSettings\\IoC\\IoC.cs",
+              "RelativeDocumentMoniker": "Api.Certification.Infra\\ApiSettings\\IoC\\IoC.cs",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.Infra\\ApiSettings\\IoC\\IoC.cs",
+              "RelativeToolTip": "Api.Certification.Infra\\ApiSettings\\IoC\\IoC.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T02:30:00.663Z",
+              "WhenOpened": "2024-11-11T03:05:59.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "GenerateCertificateRequest.cs",
-              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Commands\\Request\\GenerateCertificateRequest.cs",
-              "RelativeDocumentMoniker": "Api.Certification.AppDomain\\Commands\\Request\\GenerateCertificateRequest.cs",
-              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Commands\\Request\\GenerateCertificateRequest.cs",
-              "RelativeToolTip": "Api.Certification.AppDomain\\Commands\\Request\\GenerateCertificateRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Title": "MySQLContext.cs",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.Infra\\ApiSettings\\Repositories\\Context\\MySQLContext.cs",
+              "RelativeDocumentMoniker": "Api.Certification.Infra\\ApiSettings\\Repositories\\Context\\MySQLContext.cs",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.Infra\\ApiSettings\\Repositories\\Context\\MySQLContext.cs",
+              "RelativeToolTip": "Api.Certification.Infra\\ApiSettings\\Repositories\\Context\\MySQLContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T02:29:41.506Z",
+              "WhenOpened": "2024-11-11T03:05:57.068Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Program.cs",
-              "RelativeDocumentMoniker": "Api.Certification.AppDomain\\Program.cs",
-              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Program.cs",
-              "RelativeToolTip": "Api.Certification.AppDomain\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "GenerateCertificateService.cs",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.Infra\\Services\\GenerateCertificateService.cs",
+              "RelativeDocumentMoniker": "Api.Certification.Infra\\Services\\GenerateCertificateService.cs",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.Infra\\Services\\GenerateCertificateService.cs",
+              "RelativeToolTip": "Api.Certification.Infra\\Services\\GenerateCertificateService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T02:28:59.563Z",
+              "WhenOpened": "2024-11-11T03:05:51.764Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "RedisService.cs",
-              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.Issuer\\Services\\RedisService.cs",
-              "RelativeDocumentMoniker": "Api.Certification.Issuer\\Services\\RedisService.cs",
-              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.Issuer\\Services\\RedisService.cs",
-              "RelativeToolTip": "Api.Certification.Issuer\\Services\\RedisService.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAmwBgAAAAJAAAA",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.Infra\\Services\\RedisService.cs",
+              "RelativeDocumentMoniker": "Api.Certification.Infra\\Services\\RedisService.cs",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.Infra\\Services\\RedisService.cs",
+              "RelativeToolTip": "Api.Certification.Infra\\Services\\RedisService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T02:27:47.459Z",
+              "WhenOpened": "2024-11-11T03:05:42.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RedisConfig.cs",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Utils\\AppSettings\\RedisConfig.cs",
+              "RelativeDocumentMoniker": "Api.Certification.AppDomain\\Utils\\AppSettings\\RedisConfig.cs",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Utils\\AppSettings\\RedisConfig.cs",
+              "RelativeToolTip": "Api.Certification.AppDomain\\Utils\\AppSettings\\RedisConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T03:03:38.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Api.Certification.AppDomain",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj",
+              "RelativeDocumentMoniker": "Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj",
+              "RelativeToolTip": "Api.Certification.AppDomain\\Api.Certification.AppDomain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-11T03:03:05.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Api.Certification.Issuer.Controller.csproj",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.Issuer\\Api.Certification.Controller.csproj",
+              "RelativeDocumentMoniker": "Api.Certification.Issuer\\Api.Certification.Controller.csproj",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.Issuer\\Api.Certification.Controller.csproj",
+              "RelativeToolTip": "Api.Certification.Issuer\\Api.Certification.Controller.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-11T03:02:05.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "GenerateCertificateService.cs",
-              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.Issuer\\Services\\GenerateCertificateService.cs",
-              "RelativeDocumentMoniker": "Api.Certification.Issuer\\Services\\GenerateCertificateService.cs",
-              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.Issuer\\Services\\GenerateCertificateService.cs",
-              "RelativeToolTip": "Api.Certification.Issuer\\Services\\GenerateCertificateService.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAmwDsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T02:27:27.802Z",
+              "Title": "Api.Certification.Infra",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.Infra\\Api.Certification.Infra.csproj",
+              "RelativeDocumentMoniker": "Api.Certification.Infra\\Api.Certification.Infra.csproj",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.Infra\\Api.Certification.Infra.csproj",
+              "RelativeToolTip": "Api.Certification.Infra\\Api.Certification.Infra.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-11T03:04:10.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "MySQLContext.cs",
-              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.Issuer\\ApiSettings\\Repositories\\Context\\MySQLContext.cs",
-              "RelativeDocumentMoniker": "Api.Certification.Issuer\\ApiSettings\\Repositories\\Context\\MySQLContext.cs",
-              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.Issuer\\ApiSettings\\Repositories\\Context\\MySQLContext.cs",
-              "RelativeToolTip": "Api.Certification.Issuer\\ApiSettings\\Repositories\\Context\\MySQLContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Title": "StringExtensions.cs",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Utils\\StringExtensions.cs",
+              "RelativeDocumentMoniker": "Api.Certification.AppDomain\\Utils\\StringExtensions.cs",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.AppDomain\\Utils\\StringExtensions.cs",
+              "RelativeToolTip": "Api.Certification.AppDomain\\Utils\\StringExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T02:25:36.253Z",
+              "WhenOpened": "2024-11-11T03:03:36.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Api.Certification.Infra",
-              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.Issuer\\Api.Certification.Infra.csproj",
-              "RelativeDocumentMoniker": "Api.Certification.Issuer\\Api.Certification.Infra.csproj",
-              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.Issuer\\Api.Certification.Infra.csproj",
-              "RelativeToolTip": "Api.Certification.Issuer\\Api.Certification.Infra.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-11T02:25:06.745Z",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.Issuer\\Program.cs",
+              "RelativeDocumentMoniker": "Api.Certification.Issuer\\Program.cs",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.Issuer\\Program.cs",
+              "RelativeToolTip": "Api.Certification.Issuer\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T03:00:38.13Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "IoC.cs",
-              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.Issuer\\ApiSettings\\IoC\\IoC.cs",
-              "RelativeDocumentMoniker": "Api.Certification.Issuer\\ApiSettings\\IoC\\IoC.cs",
-              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\Api.Certification.Issuer\\Api.Certification.Issuer\\ApiSettings\\IoC\\IoC.cs",
-              "RelativeToolTip": "Api.Certification.Issuer\\ApiSettings\\IoC\\IoC.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T02:24:45.019Z",
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.Issuer\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Api.Certification.Issuer\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Certification.Issuer\\Api.Certification.Issuer\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Api.Certification.Issuer\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-11T03:02:21.578Z",
               "EditorCaption": ""
             }
           ]

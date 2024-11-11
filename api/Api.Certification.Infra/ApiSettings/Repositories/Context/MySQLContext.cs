@@ -1,8 +1,6 @@
 ﻿using Api.Certification.AppDomain.Model;
 using Api.Certification.AppDomain.Utils.AppSettings;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using System.Reflection.Emit;
 
 namespace Api.Certification.Infra.ApiSettings.Repositories.Context
 {

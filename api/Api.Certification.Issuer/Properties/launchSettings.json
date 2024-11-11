@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Api.Certification.Controller": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:8080"
+    }
+  }
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mg0TVxa70aBlLgRmo2pQ+K00SkkGvo7RDLoSJYmPKj7+l+wvzPRTvXZxMhV5QCvqG+31D2SlCHneP1cJkWXGkg==",
+  "dgSpecHash": "3daUujlgnPgZ9Y+ep95i0OP457Y+yLuCfEEHvM6aNXNBJjvATPms+RmFeEC6qPHPp+FDWacLs4giqzTSYotUKQ==",
   "success": true,
-  "projectFilePath": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\Api.Processor.csproj",
+  "projectFilePath": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\Api.Processor\\Api.Processor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Perobellinha\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.2\\microsoft.entityframeworkcore.8.0.2.nupkg.sha512",
     "C:\\Users\\Perobellinha\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.2\\microsoft.entityframeworkcore.abstractions.8.0.2.nupkg.sha512",

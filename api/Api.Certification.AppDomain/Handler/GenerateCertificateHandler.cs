@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace Api.Certification.AppDomain.Handler
 {
-    public class GenerateCertificateHandler : IRequestHandler<GenerateCertificateRequest, GenerateCertificateResponse>
+    public class GenerateCertificateHandler: IRequestHandler<GenerateCertificateRequest, GenerateCertificateResponse>
     {
         private readonly IGenerateCertificateService _generateService;
         private readonly TemplateConfig _templateConfig;
