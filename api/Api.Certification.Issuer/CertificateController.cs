@@ -16,7 +16,7 @@ namespace Api.Certification.Controller
         {
             var response = await _mediator.Send(request);
 
-            return Ok("Data received and processed successfully");
+            return Ok(response);
         }
 
         [HttpGet("v1/find")]

@@ -15,21 +15,17 @@ namespace Api.Certification.Infra.ApiSettings.IoC
         public static void RegisterServices(this IServiceCollection services, IConfiguration configuration)
         {
             #region APPSETTINGS
-            services.Configure<TemplateConfig>(configuration.GetSection("TemplateConfig"));
-            services.Configure<RedisConfig>(configuration.GetSection("RedisConfig"));
+            services.Configure<RedisConfig>(configuration.GetSection(nameof(RedisConfig)));
+            services.Configure<DBConfig>(configuration.GetSection(nameof(DBConfig)));
 
             services.AddSingleton(sp => sp.GetRequiredService<IOptions<RedisConfig>>().Value);
-            services.AddSingleton(sp => sp.GetRequiredService<IOptions<TemplateConfig>>().Value);
+            services.AddSingleton(sp => sp.GetRequiredService<IOptions<DBConfig>>().Value);
             #endregion
 
-            var redisConnection = configuration.GetConnectionString("RedisConnection");
-            services.AddSingleton<ConnectionMultiplexer>(sp =>
-                ConnectionMultiplexer.Connect("localhost:6379"));
             #region SERVICES
             services.AddTransient<IRedisService, RedisService>();
             services.AddTransient<IGenerateCertificateService, GenerateCertificateService>();
             services.AddTransient<IFindCertificateService, FindCertificateService>();
-
 
             services.AddDbContext<MySQLContext>(options =>
             options.UseMySql(configuration.GetConnectionString("DefaultConnection"),

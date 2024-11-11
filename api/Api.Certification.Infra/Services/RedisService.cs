@@ -9,9 +9,10 @@ namespace Api.Certification.Infra.Services
         private ConnectionMultiplexer _connectionRedis;
         private RedisConfig _redis;
 
-        public RedisService(ConnectionMultiplexer connectionRedis)
+        public RedisService(RedisConfig redis)
         {
-            _connectionRedis = ConnectionMultiplexer.Connect("localhost: 6379");
+            _redis = redis;
+            _connectionRedis = ConnectionMultiplexer.Connect(_redis.RedisConnection);
         }
 
         public async Task<bool> InsertCacheAsync(string key, string cache)

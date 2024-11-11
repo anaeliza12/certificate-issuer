@@ -1,7 +1,6 @@
 ﻿using Api.Certification.AppDomain.Commands.request;
 using Api.Certification.AppDomain.Interfaces;
 using Api.Certification.AppDomain.Model;
-using Api.Certification.AppDomain.Utils.AppSettings;
 using Api.Certification.Infra.ApiSettings.Repositories.Context;
 using Newtonsoft.Json;
 using RabbitMQ.Client;

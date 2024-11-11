@@ -6,26 +6,20 @@ namespace Api.Certification.Infra.ApiSettings.Repositories.Context
 {
     public class MySQLContext : DbContext
     {
-        public MySQLContext(DbContextOptions<MySQLContext> options) : base(options)
+        public MySQLContext(DbContextOptions<MySQLContext> options, DBConfig config) : base(options)
         {
+            _config = config;
         }
+
+        private DBConfig _config;
         public DbSet<StudentModel> Student { get; set; }
         public DbSet<CertificateFileModel> PdfFile { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            var connection = "Server=DESKTOP-QIJ7H6I;Port=3306;Database=studentscertificate";
+            var connection = _config.DefaultConnection;
             options.UseMySql(connection, ServerVersion.AutoDetect(connection));
         }
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<StudentModel>()
-       .ToTable("students_db");
-
-            modelBuilder.Entity<StudentModel>()
-                .HasKey(s => s.Id);
-        }
     }
 }

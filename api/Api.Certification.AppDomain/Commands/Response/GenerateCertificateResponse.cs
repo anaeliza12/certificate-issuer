@@ -2,6 +2,6 @@
 {
     public class GenerateCertificateResponse
     {
-        public byte[] Certificate { get; set; }   
+        public string Message { get; set; }   
     }
 }

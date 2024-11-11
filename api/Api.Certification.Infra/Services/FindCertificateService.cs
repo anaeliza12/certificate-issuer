@@ -1,11 +1,8 @@
-﻿using Api.Certification.AppDomain.Commands.request;
-using Api.Certification.AppDomain.Interfaces;
+﻿using Api.Certification.AppDomain.Interfaces;
 using Api.Certification.AppDomain.Model;
 using Api.Certification.Infra.ApiSettings.Repositories.Context;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
-using RabbitMQ.Client;
-using System.Text;
 
 namespace Api.Certification.Infra.Services
 {
@@ -24,7 +21,7 @@ namespace Api.Certification.Infra.Services
             var cachedCertificate = _redis.GetCacheAsync(key).Result;
             CertificateFileModel filePath;
 
-            if (cachedCertificate.Any())
+            if (!cachedCertificate.Equals("null"))
             {
                 filePath = JsonConvert.DeserializeObject<CertificateFileModel>(cachedCertificate);
             }
@@ -32,9 +29,9 @@ namespace Api.Certification.Infra.Services
             {
                 filePath = await _Dbcontext.PdfFile.Where(p => p.Name.Contains(studentName)).FirstOrDefaultAsync();
 
-                if(filePath == null)
+                if (filePath == null)
                 {
-
+                    throw new Exception($"Error to find {studentName} certificate");
                 }
                 var filePathJson = JsonConvert.SerializeObject(filePath);
                 await _redis.InsertCacheAsync(key, filePathJson);
@@ -42,12 +39,7 @@ namespace Api.Certification.Infra.Services
 
             byte[] pdfBytes;
 
-            if (filePath != null)
-            {
-                return pdfBytes = File.ReadAllBytes(filePath.FilePath);
-            }
-
-            return null;
+            return pdfBytes = File.ReadAllBytes(filePath.FilePath);
         }
     }
 }

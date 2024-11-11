@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+
 namespace Api.Certification.AppDomain.Model
 {
     [Table("certificate_files_db")]
