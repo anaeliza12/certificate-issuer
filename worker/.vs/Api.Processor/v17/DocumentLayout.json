@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.processor\\services\\certificateprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|solutionrelative:api.processor\\services\\certificateprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.processor\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|solutionrelative:api.processor\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.processor\\model\\certificatefilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|solutionrelative:api.processor\\model\\certificatefilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.processor\\model\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|solutionrelative:api.processor\\model\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.processor\\services\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|solutionrelative:api.processor\\services\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.processor\\mysqlcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|solutionrelative:api.processor\\mysqlcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.processor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|solutionrelative:api.processor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\api\\api.processor\\api.processor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|solutionrelative:api.processor\\api.processor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Api.Processor\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Api.Processor\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-11T02:03:26.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RabbitMQService.cs",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\Services\\RabbitMQService.cs",
+              "RelativeDocumentMoniker": "Api.Processor\\Services\\RabbitMQService.cs",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\Services\\RabbitMQService.cs",
+              "RelativeToolTip": "Api.Processor\\Services\\RabbitMQService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:58:42.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CertificateProcessor.cs",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\Services\\CertificateProcessor.cs",
+              "RelativeDocumentMoniker": "Api.Processor\\Services\\CertificateProcessor.cs",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\Services\\CertificateProcessor.cs",
+              "RelativeToolTip": "Api.Processor\\Services\\CertificateProcessor.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwB8AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:52:50.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentModel.cs",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\Model\\StudentModel.cs",
+              "RelativeDocumentMoniker": "Api.Processor\\Model\\StudentModel.cs",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\Model\\StudentModel.cs",
+              "RelativeToolTip": "Api.Processor\\Model\\StudentModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:35:45.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CertificateFileModel.cs",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\Model\\CertificateFileModel.cs",
+              "RelativeDocumentMoniker": "Api.Processor\\Model\\CertificateFileModel.cs",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\Model\\CertificateFileModel.cs",
+              "RelativeToolTip": "Api.Processor\\Model\\CertificateFileModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:35:25.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Api.Processor.csproj",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\Api.Processor.csproj",
+              "RelativeDocumentMoniker": "Api.Processor\\Api.Processor.csproj",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\Api.Processor.csproj",
+              "RelativeToolTip": "Api.Processor\\Api.Processor.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-11T01:33:29.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MySQLContext.cs",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\MySQLContext.cs",
+              "RelativeDocumentMoniker": "Api.Processor\\MySQLContext.cs",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\MySQLContext.cs",
+              "RelativeToolTip": "Api.Processor\\MySQLContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:33:50.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\Program.cs",
+              "RelativeDocumentMoniker": "Api.Processor\\Program.cs",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\api\\Api.Processor\\Program.cs",
+              "RelativeToolTip": "Api.Processor\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:32:02.369Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
