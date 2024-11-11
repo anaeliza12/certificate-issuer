@@ -72,16 +72,16 @@ namespace Api.Processor
 
             await File.WriteAllBytesAsync(pdfFilePath, pdfBytes);
 
-            var certificate = CreateCertificateInstance(fileName, pdfFilePath);
+            var certificate = CreateCertificateInstance(name, fileName, pdfFilePath);
 
             await SaveCertificateInstance(certificate);
 
             return pdfFilePath;
         }
 
-        private CertificateFileModel CreateCertificateInstance(string fileName, string filePath)
+        private CertificateFileModel CreateCertificateInstance(string name, string fileName, string filePath)
         {
-            var certificateObject = new CertificateFileModel { FileName = fileName, FilePath = filePath };
+            var certificateObject = new CertificateFileModel { Name = name, FileName = fileName, FilePath = filePath };
             return certificateObject;
         }
 

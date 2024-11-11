@@ -21,8 +21,12 @@ namespace Api.Certification.Controller
 
         [HttpGet("v1/find")]
         [ProducesResponseType(typeof(File), StatusCodes.Status200OK)]
-        public async Task<IActionResult> FindCertificate(GenerateCertificateRequest request)
+        public async Task<IActionResult> FindCertificate([FromQuery] string name)
         {
+            var request = new FindCertificateRequest
+            {
+                Name = name
+            };
 
             var response = await _mediator.Send(request);
 

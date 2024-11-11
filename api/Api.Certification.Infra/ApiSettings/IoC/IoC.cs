@@ -20,6 +20,7 @@ namespace Api.Certification.Infra.ApiSettings.IoC
 
             #region SERVICES
             services.AddTransient<IGenerateCertificateService, GenerateCertificateService>();
+            services.AddTransient<IFindCertificateService, FindCertificateService>();
 
             services.AddDbContext<MySQLContext>(options =>
             options.UseMySql(configuration.GetConnectionString("DefaultConnection"),
