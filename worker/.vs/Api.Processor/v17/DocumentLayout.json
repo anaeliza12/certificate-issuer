@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\worker\\api.processor\\model\\certificatefilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|solutionrelative:api.processor\\model\\certificatefilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\worker\\api.processor\\services\\certificateprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|solutionrelative:api.processor\\services\\certificateprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\worker\\api.processor\\model\\certificatefilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|solutionrelative:api.processor\\model\\certificatefilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CertificateFileModel.cs",
               "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\Api.Processor\\Model\\CertificateFileModel.cs",
               "RelativeDocumentMoniker": "Api.Processor\\Model\\CertificateFileModel.cs",
@@ -35,13 +35,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CertificateProcessor.cs",
               "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\Api.Processor\\Services\\CertificateProcessor.cs",
               "RelativeDocumentMoniker": "Api.Processor\\Services\\CertificateProcessor.cs",
               "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\Api.Processor\\Services\\CertificateProcessor.cs",
               "RelativeToolTip": "Api.Processor\\Services\\CertificateProcessor.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAowFMAAAA8AAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAIwDkAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-11T01:52:50.21Z",
               "EditorCaption": ""

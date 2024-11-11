@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Api.Certification.Infra.ApiSettings.Repositories.Context;
 using Microsoft.EntityFrameworkCore;
+using StackExchange.Redis;
 
 namespace Api.Certification.Infra.ApiSettings.IoC
 {
@@ -15,12 +16,20 @@ namespace Api.Certification.Infra.ApiSettings.IoC
         {
             #region APPSETTINGS
             services.Configure<TemplateConfig>(configuration.GetSection("TemplateConfig"));
+            services.Configure<RedisConfig>(configuration.GetSection("RedisConfig"));
+
+            services.AddSingleton(sp => sp.GetRequiredService<IOptions<RedisConfig>>().Value);
             services.AddSingleton(sp => sp.GetRequiredService<IOptions<TemplateConfig>>().Value);
             #endregion
 
+            var redisConnection = configuration.GetConnectionString("RedisConnection");
+            services.AddSingleton<ConnectionMultiplexer>(sp =>
+                ConnectionMultiplexer.Connect("localhost:6379"));
             #region SERVICES
+            services.AddTransient<IRedisService, RedisService>();
             services.AddTransient<IGenerateCertificateService, GenerateCertificateService>();
             services.AddTransient<IFindCertificateService, FindCertificateService>();
+
 
             services.AddDbContext<MySQLContext>(options =>
             options.UseMySql(configuration.GetConnectionString("DefaultConnection"),
