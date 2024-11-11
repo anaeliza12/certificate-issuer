@@ -19,7 +19,7 @@ namespace Api.Processor
 
             Console.WriteLine($"Processando diploma para {student.Name}");
 
-            var template = await File.ReadAllTextAsync("C:/Ana/PROJETOS INDIVIDUAIS/C#/certificate-issuer/worker/CertificateTemplate/certificate.html");
+            var template = await File.ReadAllTextAsync("C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker");
 
             var htmlContent = template
                 .Replace("[[nome]]", student.Name)
@@ -61,7 +61,7 @@ namespace Api.Processor
         private async Task<string> SavePdfAsync(byte[] pdfBytes, string name)
         {
             var fileName = $"{name}.pdf";
-            var filePath = "C:/Ana/PROJETOS INDIVIDUAIS/C#/api-certificate-issuer/worker/PDF";
+            var filePath = "";
             var pdfFilePath = $"{filePath}/{fileName}";
             var directoryPath = Path.GetDirectoryName(pdfFilePath);
 

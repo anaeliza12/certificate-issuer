@@ -31,7 +31,7 @@ namespace Api.Certification.Infra.Services
                 using var channel = connection.CreateModel();
                 channel.QueueDeclare(queue: "certificateQueue", durable: true, exclusive: false, autoDelete: false, arguments: null);
 
-                string jsonRequest = JsonConvert.SerializeObject(request);
+                string jsonRequest = JsonConvert.SerializeObject(request.StudentModel);
                 var body = Encoding.UTF8.GetBytes(jsonRequest);
 
                 channel.BasicPublish(exchange: "", routingKey: "certificateQueue", basicProperties: null, body: body);
