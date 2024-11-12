@@ -9,11 +9,5 @@ namespace Api.Processor
         }
         public DbSet<StudentModel> Student { get; set; }
         public DbSet<CertificateFileModel> PdfFile { get; set; }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder options)
-        {
-            var connection = "Server=DESKTOP-QIJ7H6I;Port=3306;Database=studentscertificate";
-            options.UseMySql(connection, ServerVersion.AutoDetect(connection));
-        }
     }
 }

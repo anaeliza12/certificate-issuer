@@ -44,7 +44,6 @@ namespace Api.Processor
             var page = await browser.NewPageAsync();
             await page.SetContentAsync(htmlContent);
 
-            // Gerar o PDF a partir do conteúdo HTML
             var pdfBytes = await page.PdfDataAsync(new PdfOptions
             {
                 Format = PaperFormat.A4,
@@ -61,7 +60,7 @@ namespace Api.Processor
         private async Task<string> SavePdfAsync(byte[] pdfBytes, string name)
         {
             var fileName = $"{name}.pdf";
-            var filePath = "C:/Ana/PROJETOS INDIVIDUAIS/C#/certificate-issuer/worker/PDF";
+            var filePath = "/app/pdfs";
             var pdfFilePath = $"{filePath}/{fileName}";
             var directoryPath = Path.GetDirectoryName(pdfFilePath);
 
@@ -88,11 +87,7 @@ namespace Api.Processor
         private async Task<CertificateFileModel> SaveCertificateInstance(CertificateFileModel pdfFile)
         {
             var pdfSaved = _context.PdfFile.Add(pdfFile);
-
-            //se nao existe eu insiro no redis 
-            // se ele ja exites retorna null
             var rowsAffected = await _context.SaveChangesAsync();
-            var key = "certificate_list";
 
             if (rowsAffected < 1)
             {

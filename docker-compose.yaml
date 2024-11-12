@@ -1,0 +1,68 @@
+services:
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq  # Volume para persistir as mensagens
+
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: sistema_certificado
+      MYSQL_USER: user
+      MYSQL_PASSWORD: userpassword
+    volumes:
+      - mysqldata:/var/lib/mysql
+      - ./db-mysql/ddl.sql:/docker-entrypoint-initdb.d/ddl.sql  # Montar o script DDL no diretório correto
+    ports:
+      - "3306:3306"
+
+  certificate-generator:
+    build:
+      context: ./worker/Api.Processor
+      dockerfile: ./worker/Dockerfile
+    depends_on:
+      - rabbitmq
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    volumes:
+      - pdf_data:/app/pdfs
+      - ./worker/CertificateTemplate/certificate.html:/app/templates
+
+  diploma-node:
+    build:
+      context: ./api-conclusao-curso
+      dockerfile: Dockerfile
+    environment:
+      - DB_HOST=mysql
+      - DB_USER=user
+      - DB_PASSWORD=userpassword
+      - DB_DATABASE=sistema_diplomas
+      - RABBITMQ_HOST=rabbitmq
+    depends_on:
+      - mysql
+      - rabbitmq
+    ports:
+      - "3000:3000"
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+
+  redisinsight:
+    image: redis/redisinsight:latest
+    ports:
+      - "5540:5540"
+    environment:
+      - REDISINSIGHT_AUTH_USERNAME=admin
+      - REDISINSIGHT_AUTH_PASSWORD=admin123
+      
+
+volumes:
+  mysqldata:
+  rabbitmq_data:
+  pdf_data:

@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\worker\\api.processor\\model\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|solutionrelative:api.processor\\model\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\worker\\api.processor\\services\\certificateprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|solutionrelative:api.processor\\services\\certificateprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\worker\\api.processor\\mysqlcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|solutionrelative:api.processor\\mysqlcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\worker\\api.processor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|solutionrelative:api.processor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\worker\\api.processor\\model\\certificatefilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|solutionrelative:api.processor\\model\\certificatefilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|c:\\ana\\projetos individuais\\c#\\certificate-issuer\\worker\\api.processor\\services\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6475ECF-9DB8-457E-AA1E-A0BBDF107580}|Api.Processor\\Api.Processor.csproj|solutionrelative:api.processor\\services\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +34,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "StudentModel.cs",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\Api.Processor\\Model\\StudentModel.cs",
+              "RelativeDocumentMoniker": "Api.Processor\\Model\\StudentModel.cs",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\Api.Processor\\Model\\StudentModel.cs",
+              "RelativeToolTip": "Api.Processor\\Model\\StudentModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T23:47:38.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RabbitMQService.cs",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\Api.Processor\\Services\\RabbitMQService.cs",
+              "RelativeDocumentMoniker": "Api.Processor\\Services\\RabbitMQService.cs",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\Api.Processor\\Services\\RabbitMQService.cs",
+              "RelativeToolTip": "Api.Processor\\Services\\RabbitMQService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T23:43:10.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\Api.Processor\\Program.cs",
+              "RelativeDocumentMoniker": "Api.Processor\\Program.cs",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\Api.Processor\\Program.cs",
+              "RelativeToolTip": "Api.Processor\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T23:45:21.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MySQLContext.cs",
+              "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\Api.Processor\\MySQLContext.cs",
+              "RelativeDocumentMoniker": "Api.Processor\\MySQLContext.cs",
+              "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\Api.Processor\\MySQLContext.cs",
+              "RelativeToolTip": "Api.Processor\\MySQLContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T23:43:00.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CertificateFileModel.cs",
               "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\Api.Processor\\Model\\CertificateFileModel.cs",
               "RelativeDocumentMoniker": "Api.Processor\\Model\\CertificateFileModel.cs",
@@ -35,13 +103,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CertificateProcessor.cs",
               "DocumentMoniker": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\Api.Processor\\Services\\CertificateProcessor.cs",
               "RelativeDocumentMoniker": "Api.Processor\\Services\\CertificateProcessor.cs",
               "ToolTip": "C:\\Ana\\PROJETOS INDIVIDUAIS\\C#\\certificate-issuer\\worker\\Api.Processor\\Services\\CertificateProcessor.cs",
               "RelativeToolTip": "Api.Processor\\Services\\CertificateProcessor.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAIwDkAAABJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-11T01:52:50.21Z",
               "EditorCaption": ""
