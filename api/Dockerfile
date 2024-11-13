@@ -16,7 +16,7 @@ COPY ["Api.Certification.Controller/Api.Certification.Controller.csproj", "Api.C
 COPY ["Api.Certification.Infra/Api.Certification.Infra.csproj", "Api.Certification.Infra/"]
 
 # Restaure as dependências da solução
-RUN dotnet restore "Api.Solution.sln"
+RUN dotnet restore "Api.Certification.Issuer.sln"
 
 # Copie todos os arquivos restantes (código-fonte, dependências, etc.)
 COPY . .

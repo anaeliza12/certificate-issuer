@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Api.Processor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b230a3ba238b7c4ea5335b5c68e5bc8cc46ba71")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03704fcded143a436056986d02a47678619232d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Api.Processor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Api.Processor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

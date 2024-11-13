@@ -11,21 +11,20 @@ services:
   mysql:
     image: mysql:5.7
     environment:
-      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_ALLOW_EMPTY_PASSWORD: yes
       MYSQL_DATABASE: sistema_certificado
-      MYSQL_USER: user
-      MYSQL_PASSWORD: userpassword
     volumes:
-      - mysqldata:/var/lib/mysql
-      - ./db-mysql/ddl.sql:/docker-entrypoint-initdb.d/ddl.sql  # Montar o script DDL no diretório correto
+      - ~/mysqldata:/var/lib/mysql
+      - ./db-mysql/ddl.sql:/docker-entrypoint-initdb.d/ddl.sql 
     ports:
       - "3306:3306"
 
-  certificate-generator:
+  worker-certificate:
     build:
       context: ./worker/Api.Processor
-      dockerfile: ./worker/Dockerfile
+      dockerfile: Dockerfile
     depends_on:
+      - mysql
       - rabbitmq
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
@@ -33,21 +32,22 @@ services:
       - pdf_data:/app/pdfs
       - ./worker/CertificateTemplate/certificate.html:/app/templates
 
-  diploma-node:
+  api-certificate:
     build:
-      context: ./api-conclusao-curso
+      context: ./api
       dockerfile: Dockerfile
     environment:
       - DB_HOST=mysql
       - DB_USER=user
       - DB_PASSWORD=userpassword
-      - DB_DATABASE=sistema_diplomas
+      - DB_DATABASE=sistema_certificado
       - RABBITMQ_HOST=rabbitmq
     depends_on:
       - mysql
       - rabbitmq
     ports:
       - "3000:3000"
+
   redis:
     image: redis:alpine
     ports:

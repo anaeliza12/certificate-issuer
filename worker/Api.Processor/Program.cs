@@ -20,7 +20,7 @@ namespace Api.Processor
             Host.CreateDefaultBuilder(args)
                 .ConfigureServices((context, services) =>
                 {
-                    var connection = "Server=DESKTOP-QIJ7H6I;Port=3306;Database=studentscertificate";
+                    var connection = "Server=localhost;Port=3306;Database=sistema_certificado";
                     services.AddDbContext<MySQLContext>(options =>
                         options.UseMySql(connection, ServerVersion.AutoDetect(connection)));
 

@@ -19,7 +19,7 @@ namespace Api.Processor
 
             Console.WriteLine($"Processando diploma para {student.Name}");
 
-            var template = await File.ReadAllTextAsync("C:/Ana/PROJETOS INDIVIDUAIS/C#/certificate-issuer/worker/CertificateTemplate/certificate.html");
+            var template = await File.ReadAllTextAsync("/app/templates/certificate.html");
 
             var htmlContent = template
                 .Replace("[[nome]]", student.Name)
@@ -36,7 +36,7 @@ namespace Api.Processor
 
             var browser = await Puppeteer.LaunchAsync(new LaunchOptions
             {
-                ExecutablePath = "C:/Program Files/Google/Chrome/Application/chrome.exe",
+                ExecutablePath = "/usr/bin/google-chrome-stable",
                 Headless = true,
                 Args = new[] { "--no-sandbox", "--disable-setuid-sandbox" }
             });
